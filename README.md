@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 0x1B. C - Sorting algorithms & Big O
 =======
 # C - Sorting algorithms & Big O :robot:
@@ -37,4 +36,3 @@ In this project, we implemented twelve different sorting algorithms like Bubble 
   * Prints the array after each swap.
   * [3-O](./3-O): Text file containing the best, average, and worst case time
   complexities of the Quick Sort Lomuto Partition scheme algorithm, one per line.
->>>>>>> 511529f2f3eed167517c56fa743dd4f5d0da5fe4
