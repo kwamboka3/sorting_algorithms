@@ -7,7 +7,7 @@
  * @array: Pointer to the beginning of an array
  * @size: The size of the array
  *
- * Return: Nothing
+ * Return: Sorts new array
  */
 
 void bubble_sort(int *array, size_t size)
