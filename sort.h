@@ -1,7 +1,9 @@
-#ifndef __SORT__H__
-#define __SORT__H__
+#ifndef SORT_H
+#define SORT_H
+
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /*---- Provided struct ----*/
 /**
@@ -27,13 +29,6 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-
-/*---- Our helper functions ----*/
-int checklist(listint_t **list, listint_t **current);
-void checkend(listint_t **current, listint_t **tmp, listint_t *list);
-int checkbeg(listint_t **current, listint_t **tmp,
-	     listint_t **hold, listint_t **list);
-int checkjuice(listint_t **current, listint_t **tmp,
-	       listint_t *list);
+void shell_sort(int *array, size_t size);
 
 #endif
