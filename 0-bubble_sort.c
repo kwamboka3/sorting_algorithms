@@ -2,15 +2,11 @@
 #include <stdio.h>
 
 /**
- * bubble_sort - sorts an array of integers in ascending order using the
- * Bubble sort algorithm
- *
+ * bubble_sort - sorts an array of integers in ascending order
  * @array: Pointer to the beginning of an array
  * @size: The size of the array
- *
  * Return: Sorts new array
  */
-
 void bubble_sort(int *array, size_t size)
 {
 	unsigned int i, j;
